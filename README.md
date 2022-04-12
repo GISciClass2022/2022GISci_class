@@ -73,8 +73,8 @@ gh repo clone 2022GISci_class/XXXXXXX #XXXXXXXは各自のものに置き換え�
 3　ダウンロードしたレポジトリに移動する
 cd 2022GISci_class
 4 自身の環境に応じてdocker-compose.ymlを作成する。
-mac m1チップであればdocker-compose_m1.ymlをdocker-composeに、
-それ以外であれば docker-compose_x86_64.ymlをdocker-composeとする
+mac m1チップであればdocker-compose_m1.ymlをdocker-compose.ymlに、
+それ以外であれば docker-compose_x86_64.ymlをdocker-compose.ymlとする
 5 dockerコンテナを立てる
 docker-compose up -d --build
 ```
